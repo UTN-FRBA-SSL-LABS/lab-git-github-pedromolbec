@@ -1,7 +1,7 @@
 #include "operaciones.h"
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
-
+/*El uso de const es para que los parametros cargados no puedan ser modificados a lo largo de todo el programa*/
 int sumar(const int a, const int b) {
     return a + b;
 }
